@@ -1,11 +1,14 @@
-### Copy Role
-
-# Creator: @ben-meeker
-
-This is an example of a background script that copies a role, and it's acls into a new role. This is helpful when wanting to create a copy of a role with additional or restricted privileges (e.g. itil, without access to assets). It is important to keep in mind the impact ACL's have on performance when making these changes.
-
-## Sample Code
-```javascript
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
+<h1>Copy Role</h1>
+<br>
+<h2>Creator: <a href="github.com/ben-meeker">@ben-meeker</a></h2>
+<br>
+<p>This is an example of a background script that copies a role, and it's acls into a new role. This is helpful when wanting to create a copy of a role with additional or restricted privileges (e.g. itil, without access to assets). It is important to keep in mind the impact ACL's have on performance when making these changes.</p>
+<br>
+<h2>Sample Code</h2>
+<br>
+<pre><code class="language-javascript">
 var referenceRole = 'itil' // reference role for cloning e.g. itil
 
 var newRole = 'itil_restricted'; // new role to be cloned from reference role
@@ -41,4 +44,4 @@ while(aclAndRole.next()){
     newACLAndRole.sys_user_role = newRoleSysID;
     newACLAndRole.insert();
 }
-```
+</code></pre>
