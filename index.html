@@ -2,12 +2,28 @@
     <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="/assets/css/landing.css">
+        <script src="/assets/js/search.js"></script>
     </head>
     <body>
         <h1 class="title">Welcome to ServiceNow Solutions!</h1>
         <br>
         <h2 class="label">Search for a solution</h2>
-        <div class="search-wrapper"><input class="search" type="text" placeholder="Search.."></div>
+        <div class="search-wrapper">
+            <input class="search" id="search" name="search" type="search" placeholder="Search for solutions..." onclick="searchDrop()" onkeyup="mySearch()">
+            <div id="search-dropdown" class="dropdown-content">
+				<ul id="search-ul">
+					<li><a href="#">Adele</a></li>
+					<li><a href="#">Agnes</a></li>
+
+					<li><a href="#">Billy</a></li>
+					<li><a href="#">Bob</a></li>
+
+					<li><a href="#">Calvin</a></li>
+					<li><a href="#">Christina</a></li>
+					<li><a href="#">Cindy</a></li>
+				</ul>
+			</div>
+        </div>
         <h2 class="label smaller">Or</h2>
         <h2 class="label">Click<a class="important-link" href="/solutions"> here </a> to view a full list of solutions!</h2>
         <br>
