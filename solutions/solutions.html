@@ -1,0 +1,15 @@
+<script src="../assets/js/getSolutions.js"></script>
+<script>
+    getSolutions.
+    then(function () {
+        console.log('Yay');
+    }).
+    catch(function () {
+        console.log('Nay');
+    });
+</script>
+
+{% assign pages = site.pages %}
+{% for page in pages %}
+    title: {{page.title}}
+{% endfor %} 
