@@ -8,7 +8,8 @@
       (async () => {
         const response = await fetch('https://api.github.com/repos/ben-meeker/servicenow-solutions/contents/solutions');
         const data = await response.json();
-        let htmlString = '<ul>';
+        let htmlString = '<a class="back-button" href="/">&lt;</a><br>'
+        htmlString += '<ul>';
         
         for (let file of data) {
           if (file.name == "index.html") {
