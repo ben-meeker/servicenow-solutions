@@ -1,0 +1,41 @@
+body {
+    background-color: #212121;
+}
+
+.title {
+    font-family: "Roboto";
+    font-weight: "Heavy";
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 2rem;
+    background: -webkit-linear-gradient(#ffffff, #6effac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.label {
+    text-align: center;
+    color: #e8e8e8;
+    font-family: "Roboto";
+}
+
+.left {
+    text-align: left;
+}
+
+.profile-link {
+    background: -webkit-linear-gradient(#ffffff, #6effac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    color: #a6a6a6
+}
+
+@media (min-width: 981) {
+
+}
