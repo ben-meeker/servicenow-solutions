@@ -1,4 +1,8 @@
 <html>
+  <header>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="../assets/css/solutions-list.css">
+  </header>
   <body>
     <script>
       (async () => {
@@ -7,7 +11,10 @@
         let htmlString = '<ul>';
         
         for (let file of data) {
-          htmlString += `<li><a href="/solutions/${file.name}">${file.name}</a></li>`;
+          if (file.name == "index.html") {
+            continue;
+          };
+          htmlString += `<li><a class="profile-link" href="/solutions/${file.name}">${file.name}</a></li>`;
         }
 
         htmlString += '</ul>';
