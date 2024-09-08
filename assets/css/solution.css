@@ -33,7 +33,8 @@ body {
 
 .description {
     text-align: center;
-    color: #a6a6a6
+    color: #a6a6a6;
+    font-size: 1.25rem;
 }
 
 @media (min-width: 981) {
