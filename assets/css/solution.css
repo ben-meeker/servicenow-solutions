@@ -2,6 +2,18 @@ body {
     background-color: #212121;
 }
 
+.back-button {
+    position: absolute;
+    font-family: "Roboto";
+    font-weight: "Heavy";
+    text-align: left;
+    font-size: 8rem;
+    background: -webkit-linear-gradient(#ffffff, #6effac);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .title {
     font-family: "Roboto";
     font-weight: "Heavy";

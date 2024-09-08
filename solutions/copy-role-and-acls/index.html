@@ -1,18 +1,24 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/default.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/atom-one-dark.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-<link rel="stylesheet" href="../../assets/css/solution.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/javascript.min.js"></script>
-<script>hljs.highlightAll();</script>
-<h1 class="title">Copy Role</h1>
-<br>
-<h2 class="label">Creator: <a class="important-link" href="https://github.com/ben-meeker">@ben-meeker</a></h2>
-<br>
-<p class="description">This is an example of a background script that copies a role, and it's acls into a new role. This is helpful when wanting to create a copy of a role with additional or restricted privileges (e.g. itil, without access to assets). It is important to keep in mind the impact ACL's have on performance when making these changes.</p>
-<br>
-<h2 class="label left">Sample Code</h2>
-<pre><code class="language-javascript theme-atom-one-dark">
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/default.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/styles/atom-one-dark.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="../../assets/css/solution.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/javascript.min.js"></script>
+        <script>hljs.highlightAll();</script>
+    </head>
+    <body>
+        <a class="back-button" href="/solutions">&lt;</a>
+        <h1 id="solution-name" class="title">Copy Role</h1>
+        <h2 id="type" class="label">Background Script</h2>
+        <br>
+        <h2 id="creator" class="label">Creator: <a class="important-link" href="https://github.com/ben-meeker">@ben-meeker</a></h2>
+        <br>
+        <p id="description" class="description">This is an example of a background script that copies a role, and it's acls into a new role. This is helpful when wanting to create a copy of a role with additional or restricted privileges (e.g. itil, without access to assets). It is important to keep in mind the impact ACL's have on performance when making these changes.</p>
+        <br>
+        <h2 class="label left">Sample Code</h2>
+        <pre><code class="language-javascript theme-atom-one-dark">
 var referenceRole = 'itil' // reference role for cloning e.g. itil
 
 var newRole = 'itil_restricted'; // new role to be cloned from reference role
@@ -48,4 +54,6 @@ while(aclAndRole.next()){
     newACLAndRole.sys_user_role = newRoleSysID;
     newACLAndRole.insert();
 }
-</code></pre>
+        </code></pre>
+    </body>
+</html>
