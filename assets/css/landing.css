@@ -14,6 +14,15 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    border: 1px solid #6effac;
+}
+
 .label {
     text-align: center;
     color: #e8e8e8;
