@@ -8,7 +8,7 @@ A public web page to help ServiceNow devs share peer-reviewed solutions to probl
 * Submit a pull request with the following:
     * A folder with a **descriptive** name, with spaces denoted by `-`. E.g. `copy-role-and-acls`
     * An index.md file containing instructions, code, etc. Each index.md file needs to start with the following lines:
-    ```
+    ```md
     # Title as header one
 
     ### Type of solution (widget, background script, client script, business rule, etc.)
