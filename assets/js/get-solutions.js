@@ -1,6 +1,6 @@
-(function(){
-    const response = fetch('https://api.github.com/repos/ben-meeker/servicenow-solutions/contents/solutions');
-    const data = response.json();
+(async () => {
+    const response = await fetch('https://api.github.com/repos/ben-meeker/servicenow-solutions/contents/solutions');
+    const data = await response.json();
     var list = document.getElementById('solutions-ul')
 
     for (let file of data) {
