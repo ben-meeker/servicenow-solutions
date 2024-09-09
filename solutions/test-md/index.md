@@ -14,8 +14,8 @@ This is a basic widget for the ServiceNow Service Portal that implements [fullca
 Getting Started
 ---------------
 
-1.   Create a new widget in your ServiceNow instance.
-2.   Add required dependencies.
+* Create a new widget in your ServiceNow instance.
+* Add required dependencies.
 
     -  Go to the widget platform view, scroll down to the Dependencies related list.
     -   Click on New and name it Calendar. Press Submit.
@@ -26,7 +26,7 @@ Getting Started
     -   Click on New and set the Source to URL.
     -   Enter this URL into the CSS file URL field: 'https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.5.1/fullcalendar.min.css'. Press Submit.
 
-3.   Fill out widget script fields with included code.
+* Fill out widget script fields with included code.
   
 HTML Template
 -------------
