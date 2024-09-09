@@ -8,11 +8,10 @@
         continue;
       };
       var li = document.createElement('li');
-      li.setAttribute('class','important-link');
       var a = document.createElement('a');
       a.setAttribute('href',`/solutions/${file.name}`);
+      a.innerHTML = `${file.name}`;
       li.appendChild(a);
-      li.innerHTML = `${file.name}`;
       list.appendChild(li);
     }
 })();
