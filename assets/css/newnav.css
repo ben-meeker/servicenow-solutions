@@ -17,7 +17,7 @@ nav {
   /* Change the color of links on hover */
   nav a:hover {
     background-color: rgba(110, 255, 172, 0.9);
-    color: #212121;
+    color: #212121 !important;
   }
   
   /* Add a color to the active/current link */
