@@ -20,7 +20,7 @@ function mySearch() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
-    ul = document.getElementById("search-ul");
+    ul = document.getElementById("solutions-ul");
     li = ul.getElementsByTagName("li");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
