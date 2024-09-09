@@ -1,19 +1,12 @@
-[Home](/) [Solutions](/solutions)
-
 # Fullcalendar Calendar Widget
-============================
 
 ### Widget
-------
 
 ### Creator: [@ben-meeker](https://github.com/ben-meeker)
------------------------------------------------------
 
 This is a basic widget for the ServiceNow Service Portal that implements [fullcalendar.io](https://fullcalendar.io) - this allows for dynamic event creation, on-click event actions, and calendar styling.
 
 ## Getting Started
----------------
-
 * Create a new widget in your ServiceNow instance.
 * Add required dependencies.
 
@@ -29,7 +22,6 @@ This is a basic widget for the ServiceNow Service Portal that implements [fullca
 * Fill out widget script fields with included code.
   
 ## HTML Template
--------------
 ```html
 <div>
     <!-- This div is a placeholer for the calendar (see Client Script) -->
@@ -37,10 +29,7 @@ This is a basic widget for the ServiceNow Service Portal that implements [fullca
 </div>
 ```         
 
-  
-
 ## CSS-SCSS
---------
 ```css    
 /* Override existing calendar CSS. Find these classes in Google Inspect */
 .fc td,.fc th {
@@ -61,7 +50,6 @@ This is a basic widget for the ServiceNow Service Portal that implements [fullca
   
 
 ## Client Script
--------------
 ```javascript
 api.controller=function() {
     /* widget controller */
@@ -83,7 +71,6 @@ api.controller=function() {
 ```
 
 ## Server Script
--------------
 ```javascript
 (function() {
     data.eventList=[];
