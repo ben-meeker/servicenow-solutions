@@ -2,7 +2,7 @@
 
 ### Business Rule   
 
-### Creator: [@ben-meeker](https://github.com/ben-meeker) A creator tag with your @ linked to your github
+### Creator: [@ben-meeker](https://github.com/ben-meeker)
 
 Restrict incidents so that agents can only see incidents that are assigned to a group they are a part of. This is helpful if you have multiple departments or teams working inside of the incident table, and you don't want them to be able to view eachothers tickets.
 
