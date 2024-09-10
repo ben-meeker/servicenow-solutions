@@ -2,7 +2,7 @@
 
 ### UI Action
 
-### Creator: [@brealPhrojoe](https://github.com/realPhrojoe)
+### Creator: [@realPhrojoe](https://github.com/realPhrojoe)
 
 Creating a UI action that calls a subflow that can be clicked in both form view and workspace
 
@@ -34,7 +34,7 @@ Creating a UI action that calls a subflow that can be clicked in both form view 
       action.setRedirectURL(current); 
     })();
     ```
-    - Set Workspace Configuration
-    ![workspace](workspace.png "Workspace")
+  - Set Workspace Configuration
+  ![workspace](workspace.png "Workspace")
     
 
