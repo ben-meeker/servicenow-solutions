@@ -1,7 +1,15 @@
-# Title as header one
+# Custom UI action to call subflow in workspace
 
-### Type of solution (widget, background script, client script, business rule, etc.)
+### UI Action
 
-### Creator: [@ben-meeker](https://github.com/ben-meeker) A creator tag with your @ linked to your github
+### Creator: [@brealPhrojoe](https://github.com/realPhrojoe)
 
-A description of your solution
+Creating a UI action that calls a subflow that can be clicked in both form view and workspace
+
+## Getting Started
+
+* Create a subflow
+* Create a UI action
+  - Give your UI action a name and table
+  - Populate fields with the following settings. Alter as needed.
+  - 
