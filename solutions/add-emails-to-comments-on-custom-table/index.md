@@ -10,7 +10,7 @@ Create an inbound action that will add emails and attachments to a record on a c
 
 ### Email Setup
 
-1. Create an email or group, and forward emails to `<instance>@service-now.com`
+Create an email or group, and forward emails to `<instance>@service-now.com`
 
 ### Inbound Action
 
