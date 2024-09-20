@@ -54,3 +54,7 @@ if (record.next()) {
 #### Description
 
 Give a relevant description of the inbound action.
+
+### Disclaimer
+
+Duplicate this inbound action for types `Reply` and `Forward` as needed.
