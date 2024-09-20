@@ -28,7 +28,7 @@ This will allow us to send emails to addresses like `emailprefix+CLA001008@compa
 
 #### Actions
 
-Set the scrip value to the following, and modify as needed:
+Set the script value to the following, and modify as needed:
 
 ```javascript
 (function runAction(/*GlideRecord*/ current, /*GlideRecord*/ event, /*EmailWrapper*/ email, /*ScopedEmailLogger*/ logger, /*EmailClassifier*/ classifier) {
@@ -55,6 +55,6 @@ if (record.next()) {
 
 Give a relevant description of the inbound action.
 
-### Disclaimer
+## Disclaimer
 
 Duplicate this inbound action for types `Reply` and `Forward` as needed.
