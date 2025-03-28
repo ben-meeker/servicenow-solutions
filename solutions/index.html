@@ -1,18 +1,36 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="../assets/css/solutions-list.css">
-    <link rel="stylesheet" href="../assets/css/nav.css">
-    <script src="../assets/js/get-solutions.js"></script>
-  </head>
-  <body>
-    <div id="header">
-        <nav>
-            <a class="home" href="/">Home</a>
-            <a href="/solutions">Solutions</a>
-        <nav>
-    </div>
-    <ul class="important-link" id="solutions-ul">
-    </ul>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Solutions - ServiceNow Solutions</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+        <link rel="stylesheet" href="../assets/css/landing.css">
+        <link rel="stylesheet" href="../assets/css/nav.css">
+        <link rel="stylesheet" href="../assets/css/solutions-list.css">
+        <script src="../assets/js/format-text.js"></script>
+        <script src="../assets/js/get-solutions.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="main-nav">
+                <div class="nav-container">
+                    <a class="home" href="/">ServiceNow Solutions</a>
+                    <div class="nav-links">
+                        <a href="/solutions" class="active">Solutions</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="solutions-container">
+            <div class="content-wrapper">
+                <p class="subtitle">Browse through our collection of ServiceNow solutions</p>
+                
+                <div class="solutions-list">
+                    <ul id="solutions-ul" class="solutions-grid"></ul>
+                </div>
+            </div>
+        </main>
+    </body>
 </html>
